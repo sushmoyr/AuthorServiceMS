@@ -60,7 +60,7 @@
             <artifactId>Proto</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/../Proto/target/Proto-1.0-SNAPSHOT.jar</systemPath>
+            <systemPath>${project.basedir}/lib/Proto-1.0-SNAPSHOT.jar</systemPath>
             <exclusions>
                 <exclusion>
                     <groupId>io.grpc</groupId>
