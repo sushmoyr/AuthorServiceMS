@@ -1,2 +1,14 @@
-package com.example.authorservice;public class CreateAuthorRequest {
+package com.example.authorservice;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class CreateAuthorRequest {
+    private String name;
+    private String email;
+    private String bio;
 }
