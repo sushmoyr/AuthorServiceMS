@@ -54,23 +54,15 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-<!--        depend on com.example.proto from file system-->
+<!--        <dependency>-->
+<!--            <groupId>io.grpc</groupId>-->
+<!--            <artifactId>grpc-core</artifactId>-->
+<!--            <version>1.42.1</version>-->
+<!--        </dependency>-->
         <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>Proto</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/Proto-1.0-SNAPSHOT.jar</systemPath>
-            <exclusions>
-                <exclusion>
-                    <groupId>io.grpc</groupId>
-                    <artifactId>grpc-stub</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>io.grpc</groupId>
-                    <artifactId>google-protobuf</artifactId>
-                </exclusion>
-            </exclusions>
+            <groupId>tech.utkorsho</groupId>
+            <artifactId>utkorsho-proto-interface</artifactId>
+            <version>1.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>net.devh</groupId>
